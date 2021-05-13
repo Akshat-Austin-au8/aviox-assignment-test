@@ -14,10 +14,9 @@ import {
   Button,
 } from 'reactstrap'
 
-var today = new Date()
+var day = new Date()
 
-var date =
-  today.getDate() + '-' + (today.getMonth() + 1) + '-' + today.getFullYear()
+var date = day.getDate() + '-' + (day.getMonth() + 1) + '-' + day.getFullYear()
 
 // console.log(date)
 
